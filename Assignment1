@@ -1,16 +1,1 @@
-class Employee:
-    def __init__(self,empid,age):
-        self.empid = empid
-        self.age = age
-e1 = Employee(100,20)
-e2 = Employee(200,25)
-def update(e2,empid,age):
-    e2 = Employee(empid,age)
-def averAge(e1,e2):
-    return (e1.age+e2.age)/2
 
-print(averAge(e1,e2))
-update(e1,100,30)
-print(averAge(e1,e2))
-update(e2,200,40)
-print(averAge(e1,e2))
